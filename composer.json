@@ -1,12 +1,12 @@
 {
-    "name": "hydrat/partial-seeder",
-    "description": "Seed your database using a migration-like system in order to seed only the application defaults added while development",
+    "name": "hydrat-agency/laravel-partial-seeder",
+    "description": "Seed your Laravel database using a migration-like system in order to only seed the modified application defaults added during development.",
     "keywords": [
         "Hydrat",
         "laravel",
         "partial-seeder"
     ],
-    "homepage": "https://github.com/hydrat/partial-seeder",
+    "homepage": "https://github.com/Hydrat-Agency/partial-seeder",
     "license": "MIT",
     "authors": [
         {
