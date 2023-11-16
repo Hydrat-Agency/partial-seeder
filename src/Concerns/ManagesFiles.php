@@ -13,7 +13,7 @@ trait ManagesFiles
      */
     protected function directoryName()
     {
-        return 'partial_seeds';
+        return config('partial-seeder.directory_name', 'partial_seeds');
     }
 
     /**
@@ -29,7 +29,7 @@ trait ManagesFiles
     }
 
     /**
-     * Get all the .php files from the partial_seeds directory.
+     * Get all the .php files from the partial seeders directory.
      *
      * @author DevMcC <sinbox.c@gmail.com>
      *
