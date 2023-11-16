@@ -15,7 +15,7 @@ class PartialSeederMakeCommand extends SeederMakeCommand
      *
      * @var string
      */
-    public $signature = 'make:partial-seeder';
+    public $name = 'make:partial-seeder';
 
     /**
      * The console command description.
