@@ -41,9 +41,11 @@ class PartialSeederMakeCommand extends SeederMakeCommand
     public function handle()
     {
         $name = $this->qualifyClass($this->getNameInput());
-        $className = Str::studly($name);
 
-        $path = $this->getDestinationPath($name);
+        $className = Str::studly($name);
+        $fileName = Str::snake(Str::afterLast($name, '\\'));
+
+        $path = $this->getDestinationPath($fileName);
 
         $this->requireFiles($this->getPartialSeedsFiles());
 
