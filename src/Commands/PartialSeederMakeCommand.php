@@ -64,8 +64,6 @@ class PartialSeederMakeCommand extends SeederMakeCommand
         $this->files->put($path, $this->buildClass($className));
 
         $this->info($this->type.' created successfully.');
-
-        $this->composer->dumpAutoloads();
     }
 
     /**
