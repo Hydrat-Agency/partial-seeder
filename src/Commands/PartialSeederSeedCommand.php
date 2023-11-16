@@ -12,7 +12,7 @@ use Illuminate\Database\Console\Seeds\SeedCommand;
 use Hydrat\PartialSeeder\Concerns\ManagesSeedHistory;
 use Illuminate\Database\ConnectionResolver as Resolver;
 
-class SeedPartialSeederCommand extends SeedCommand
+class PartialSeederSeedCommand extends SeedCommand
 {
     use ManagesFiles;
     use ManagesSeedHistory;
